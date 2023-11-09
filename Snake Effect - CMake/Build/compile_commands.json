@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build",
+  "command": "C:/WinAVR-20100110/bin/avr-gcc.exe  @CMakeFiles/snakeEffectExe.dir/includes_C.rsp -std=gnu99 -g -std=gnu99 -o CMakeFiles/snakeEffectExe.dir/Src/main.c.obj -c \"C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Src/main.c\"",
+  "file": "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Src/main.c",
+  "output": "CMakeFiles/snakeEffectExe.dir/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/Lib",
+  "command": "C:/WinAVR-20100110/bin/avr-gcc.exe  @CMakeFiles/DIO_Lib.dir/includes_C.rsp -std=gnu99 -g -std=gnu99 -o CMakeFiles/DIO_Lib.dir/DIO_prog.c.obj -c \"C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Lib/DIO_prog.c\"",
+  "file": "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Lib/DIO_prog.c",
+  "output": "Lib/CMakeFiles/DIO_Lib.dir/DIO_prog.c.obj"
+}
+]

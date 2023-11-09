@@ -1,0 +1,188 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/WinAVR-20100110/bin/avr-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/3.27.7/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/WinAVR-20100110/bin/avr-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-ncyko9"
+      binary: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-ncyko9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-ncyko9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/WinAVR-20100110/utils/bin/make.exe -f Makefile cmTC_f6386/fast
+        C:/WinAVR-20100110/utils/bin/make.exe  -f CMakeFiles/cmTC_f6386.dir/build.make CMakeFiles/cmTC_f6386.dir/build
+        make.exe[1]: Entering directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-ncyko9'
+        make.exe[1]: *** [CMakeFiles/cmTC_f6386.dir/CMakeCCompilerABI.c.obj] Error -1073741502
+        make.exe[1]: Leaving directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-ncyko9'
+        make.exe: *** [cmTC_f6386/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/WinAVR-20100110/bin/avr-gcc.exe"
+    directories:
+      source: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-vbo8p5"
+      binary: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-vbo8p5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-vbo8p5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/WinAVR-20100110/utils/bin/make.exe -f Makefile cmTC_fd015/fast
+        C:/WinAVR-20100110/utils/bin/make.exe  -f CMakeFiles/cmTC_fd015.dir/build.make CMakeFiles/cmTC_fd015.dir/build
+        make.exe[1]: Entering directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-vbo8p5'
+        make.exe[1]: *** [CMakeFiles/cmTC_fd015.dir/testCCompiler.c.obj] Error -1073741502
+        make.exe[1]: Leaving directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-vbo8p5'
+        make.exe: *** [cmTC_fd015/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/WinAVR-20100110/bin/avr-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/3.27.7/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/WinAVR-20100110/bin/avr-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-sav12k"
+      binary: "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-sav12k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-sav12k'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/WinAVR-20100110/utils/bin/make.exe -f Makefile cmTC_736fe/fast
+        C:/WinAVR-20100110/utils/bin/make.exe  -f CMakeFiles/cmTC_736fe.dir/build.make CMakeFiles/cmTC_736fe.dir/build
+        make.exe[1]: Entering directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-sav12k'
+        make.exe[1]: *** [CMakeFiles/cmTC_736fe.dir/CMakeCCompilerABI.c.obj] Error -1073741502
+        make.exe[1]: Leaving directory `C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build/CMakeFiles/CMakeScratch/TryCompile-sav12k'
+        make.exe: *** [cmTC_736fe/fast] Error 2
+        
+      exitCode: 2

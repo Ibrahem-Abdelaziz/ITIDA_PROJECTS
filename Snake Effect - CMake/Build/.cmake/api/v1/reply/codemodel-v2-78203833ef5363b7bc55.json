@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Lib",
+					"jsonFile" : "directory-Lib-Debug-f235c9182fba3adf99d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "snake_effect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DIO_Lib::@0515e3c8624b6e9d0288",
+					"jsonFile" : "target-DIO_Lib-Debug-b1845119eabcaf5c1e89.json",
+					"name" : "DIO_Lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hex-Debug-7e3ce5fa8d35f406c8a3.json",
+					"name" : "hex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snakeEffectExe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snakeEffectExe-Debug-784294011c1127a94398.json",
+					"name" : "snakeEffectExe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strip-Debug-3e717e7738c8fd481c9f.json",
+					"name" : "strip",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake/Build",
+		"source" : "C:/Users/city_lap/Desktop/Snake Effect - CMake/Snake Effect - CMake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
